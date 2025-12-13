@@ -1,34 +1,6 @@
 ## 1 Platform Copyright Policy — TikTok
 
 ### A. Detection Methods
-- Automated audio fingerprinting:
-- Visual/clip detection:
-- Manual/DMCA reports:
-- Commercial Music Library rules:
-
-### B. What Happens When Flagged
-- Soft actions (mute, region block, "sound unavailable"):
-- Hard actions (removal, restrictions):
-- Timing (immediate vs delayed):
-
-### C. Appeals / Counter-Notice
-- In-app appeal options:
-- DMCA counter-notice requirements:
-
-### D. Monetization Rules
-- Personal vs Creator/Business differences:
-- When copyrighted audio removes monetization:
-- Commercial Music Library basics:
-
-### E. Expected Outcomes (Before Experiments)
-- Raw clip expected result:
-- Commentary expected result:
-- AI content expected result:
-
-
-## 1 Platform Copyright Policy — TikTok
-
-### A. Detection Methods
 - Automated audio fingerprinting: TikTok scans uploaded videos and matches audio against a copyrighted music database.
 - Visual/clip detection: TikTok can detect popular movie/TV scenes based on known fingerprints (less strict than YouTube).
 - Manual/DMCA reports: Copyright owners can file takedown requests through TikTok’s DMCA system.
@@ -51,23 +23,23 @@
 ### E. Expected Outcomes (Before Experiments)
 - Raw clip expected result: Likely to be muted or flagged quickly for copyrighted audio.
 - Commentary expected result: May stay up, but audio can still get muted or flagged.
-- AI content expected result: Usually allowed; might be labeled as AI-generated; rarely flagged for copyright.
+- AI content expected result: Usually allowed; TikTok frequently adds an **“AI-generated”** label; rarely flagged for copyright.
 
-## Experiment 1: Raw Copyrighted Clip (No Transformation)
+---
+
+## 2 Experiment 1: Raw Copyrighted Clip (No Transformation)
 
 **Description:**  
 I uploaded a 10-second recording of a copyrighted song. The audio was played from my laptop speakers and recorded directly with my phone. I did not add commentary, edits, text, or filters — this was a completely non-transformative upload.
 
 **Screenshots Collected:**  
-- **exp1-posted.png** – Video visible on my TikTok profile after uploading  
+- **exp1-posted.png** – Video visible on my TikTok profile  
 - **exp1-notifications.png** – Notifications tab showing no copyright alerts  
-
 
 **Detection Timing:**  
 - Immediately after posting: Video was public and the audio was fully audible  
 - After a few minutes: No warnings or copyright flags  
-- After checking the notifications panel: No system notices related to copyright  
-- Overall: No copyright detection occurred during the initial monitoring period
+- Notifications panel: No system notices related to copyright  
 
 **Outcome:**  
 - The video remained public  
@@ -76,181 +48,156 @@ I uploaded a 10-second recording of a copyrighted song. The audio was played fro
 - TikTok fully allowed the raw copyrighted clip on this personal test account
 
 **Notes:**  
-- This upload is almost certainly **not fair use** under copyright law because it uses copyrighted audio without transformation.  
-- Despite that, TikTok allowed the clip. This suggests TikTok’s enforcement is more lenient for short audio clips uploaded by personal accounts.  
-- This result will be important later in the “gap analysis,” showing a difference between legal rules, platform policy, and real-world enforcement.
+- This upload is almost certainly **not fair use** under copyright law.  
+- TikTok still allowed it, likely due to lenient detection on short clips for personal accounts.  
+- This creates a useful contrast for the gap analysis.
 
-## Experiment 2: Commentary / Criticism (Transformative Use)
+---
+
+## 3 Experiment 2: Commentary / Criticism (Transformative Use)
 
 **Description:**  
-For this experiment, I recorded a short commentary clip using copyrighted audio playing in the background.  
-I spoke over the clip and explained that I was analyzing the song for an educational assignment.  
-This transforms the use into commentary/criticism, which is a classic fair use category.
+I recorded a short commentary clip while copyrighted audio played faintly in the background.  
+I explained that I was analyzing the song for an educational assignment, making this a commentary/criticism use.
 
 **Screenshots Collected:**  
-- **exp2-posted.png** – Video visible on my profile after uploading  
-- **exp2-final.png** – Video detail page showing whether audio was muted or allowed  
-- **exp2-notifications.png** – Notifications tab (any copyright warnings or none)
+- **exp2-posted.png**  
+- **exp2-final.png**  
+- **exp2-notifications.png**
 
 **Detection Timing:**  
-- Immediately after posting: The video uploaded successfully  
-- After reviewing notifications: No copyright warnings appeared (based on the screenshots)  
-- After checking the video status: The audio remained active and the video stayed public  
-- TikTok did not apply any muting or restrictions during the monitoring period
+- Immediately after posting: Successful upload  
+- Notifications: No copyright warnings  
+- Video status: Audio remained active  
 
 **Outcome:**  
-- The video remained public  
-- The audio remained on  
-- No copyright notification or muting occurred  
-- Despite containing copyrighted audio, TikTok allowed it because the clip contained commentary and was likely treated as “original sound”
+- The video stayed public  
+- Audio was not muted  
+- No copyright warnings appeared  
+- TikTok treated this the same as Experiment 1
 
 **Notes:**  
-- Commentary is generally the strongest fair-use category under U.S. copyright law (criticism, educational analysis).  
-- Legally, this experiment is *more defensible* than Experiment 1.  
-- TikTok’s real-world enforcement still allowed the video without any copyright flags, reinforcing that TikTok’s systems often do not detect or punish short background copyrighted audio, especially when mixed with original speech.  
+- Commentary is one of the strongest fair use categories.  
+- Even though legally distinct from Experiment 1, TikTok made no enforcement distinction.  
 
-### AI Experiment 1 — Direct Reference (Film-Style Moon Image)
+---
+
+## 4 AI Experiment 1 — Direct Reference (Interstellar-Style Moon Image)
 
 **AI tool & prompt:**  
 - Tool: DALL·E (ChatGPT Plus)  
 - Prompt: “Create an image of an astronaut standing on the Moon in the style of a modern sci-fi film (Interstellar-style), with Earth rising on the horizon.”
 
 **Screenshots Collected:**  
-- **ai1-posted.png** – Post visible on profile  
-- **ai1-final.png** – Post page (no copyright or AI warnings)  
-- **ai1-notifications.png** – Notifications tab showing no alerts
+- **ai1-posted.png** – Post visible  
+- **ai1-final.png** – Shows the **AI-generated label**  
+- **ai1-notifications.png** – No copyright alerts
 
 **Platform Response:**  
-- The content remained public.  
-- No copyright notifications.  
-- No AI-content warnings.  
-- No sound muting or post restrictions.  
-- TikTok fully allowed the image, even though it mimics a copyrighted film style.
+- TikTok applied an **“AI-generated”** label automatically  
+- No copyright notifications  
+- No restrictions  
+- TikTok allowed the content, even though it mimics a copyrighted film style
 
 **Notes:**  
-- DALL·E grants the user broad rights to output, but it cannot grant rights to third-party copyrighted styles.  
-- Style mimicry (e.g., “Interstellar-style”) is a gray zone in copyright law, but TikTok currently does not enforce against it.  
-- This result highlights that style-based similarity does not trigger detection on TikTok.
+- Style mimicry is not directly protected by copyright.  
+- TikTok does enforce AI transparency through labeling but **not** through copyright enforcement.
 
-### AI Experiment 2 — Style Mimicry (Studio Ghibli–Inspired Moon Illustration)
+---
+
+## 5 AI Experiment 2 — Style Mimicry (Studio Ghibli–Inspired Moon Illustration)
 
 **AI tool & prompt:**  
 - Tool: DALL·E (ChatGPT Plus)  
 - Prompt: “Create an image in the style of Studio Ghibli showing an astronaut exploring the Moon at sunrise.”
 
 **Screenshots Collected:**  
-- ai2-posted.png – Post visible on profile  
-- ai2-final.png – Post detail page  
-- ai2-notifications.png – Notifications tab (no copyright alerts)
+- **ai2-posted.png**  
+- **ai2-final.png** – Shows the **AI-generated label**  
+- **ai2-notifications.png** – No copyright alerts
 
 **Platform Response:**  
-- TikTok allowed the image with no restrictions.  
-- No copyright or AI warnings appeared (based on screenshots).  
-- Style mimicry of a copyrighted animation style did not trigger any enforcement.
+- TikTok applied an **“AI-generated”** label automatically  
+- No copyright warnings  
+- No restrictions  
+- Style mimicry of a copyrighted animation style did not trigger enforcement
 
 **Notes:**  
-- Style mimicry is not directly protected by copyright, even though Studio Ghibli’s characters and exact images are.  
-- TikTok does not appear to detect or enforce against style-based AI content.  
-
-
-## 4 Legal Analysis
-
-### A. Fair Use Analysis for Experiment 1 (Raw Copyrighted Clip)
-
-**1. Purpose and character of the use:**  
-- Purely non-transformative.  
-- The clip was an unaltered recording of a copyrighted song.  
-- This weighs strongly *against* fair use.
-
-**2. Nature of the copyrighted work:**  
-- The song is a creative work, which receives the highest copyright protection.  
-- This also weighs against fair use.
-
-**3. Amount and substantiality used:**  
-- Although only ~10 seconds were used, it was taken directly from the “heart” of the work (the audio itself).  
-- Even a short clip can weigh against fair use.
-
-**4. Effect on the market:**  
-- Uploading copyrighted audio without transformation could substitute for licensed use or harm the market for the original.  
-- This weighs against fair use.
-
-**Conclusion:**  
-Experiment 1 is *not* fair use under U.S. copyright law.  
-TikTok still allowed it, showing that platform enforcement does **not** always match legal standards.
+- This demonstrates TikTok’s focus on **AI transparency labeling**, not copyright detection.  
 
 ---
 
-### B. Fair Use Analysis for Experiment 2 (Commentary / Criticism Clip)
+## 6 Legal Analysis
 
-**1. Purpose and character of the use:**  
-- Transformative: commentary and educational analysis were added.  
-- This weighs strongly *in favor* of fair use.
+### A. Fair Use Analysis for Experiment 1 (Raw Clip)
+1. **Purpose & character:** Non-transformative → against fair use  
+2. **Nature:** Creative song → against  
+3. **Amount:** Clip taken directly from heart of work → against  
+4. **Market effect:** Could substitute licensed use → against  
 
-**2. Nature of the copyrighted work:**  
-- Still a creative song, but commentary about a creative work typically leans toward fair use.  
-- Slightly against fair use, but less important here.
+**Conclusion:** Not fair use. TikTok still allowed it.
 
-**3. Amount and substantiality used:**  
-- Only background audio was used while commentary was added.  
-- Amount used was reasonable for making the point.  
-- This leans toward fair use.
+---
 
-**4. Effect on the market:**  
-- Commentary does not replace the original work.  
-- No market harm.
+### B. Fair Use Analysis for Experiment 2 (Commentary)
+1. **Purpose & character:** Transformative commentary → for fair use  
+2. **Nature:** Creative work → slightly against  
+3. **Amount:** Reasonable for commentary → for  
+4. **Market effect:** No substitution → for  
 
-**Conclusion:**  
-Experiment 2 *is likely fair use* legally.  
-However, TikTok treated this upload exactly the same as Experiment 1 — no flags, no mutes — showing that TikTok is not evaluating fair use in a legal sense but simply relying on automated audio matching.
+**Conclusion:** Likely fair use. TikTok still treated it the same as non-fair-use content.
 
 ---
 
 ### C. Copyright Analysis of AI Experiments
 
-#### 1. AI Experiment 1 (Interstellar-Style Image)
-- The style is inspired by a copyrighted film (*Interstellar*), but "style" alone is **not protected** by copyright.
-- TikTok did not detect or restrict the content.
-- DALL·E assigns the user broad rights to use generated images, but this does not extend to recreating specific copyrighted characters or frames.
-- This experiment demonstrates that platforms do not detect film-style mimicry.
+#### AI Experiment 1 (Interstellar-style)
+- Style is not protected by copyright  
+- TikTok added **AI-generated** label  
+- No copyright enforcement  
+- User owns output under DALL·E’s policy  
 
-#### 2. AI Experiment 2 (Studio Ghibli–Inspired Image)
-- The image mimics Studio Ghibli’s visual style, but again, **visual style is not protected**; only specific characters and artwork are.
-- TikTok allowed this upload without any warnings.
-- This shows that style mimicry remains a gray area that platforms generally do **not** enforce.
+#### AI Experiment 2 (Ghibli-style)
+- Style mimicry ≠ infringement  
+- TikTok added **AI-generated** label  
+- No copyright enforcement  
 
 **AI Ownership Note:**  
-- Under DALL·E’s policy, the user (you) is granted rights to use and publish the outputs.  
-- TikTok currently has no copyright-based restrictions on AI art unless it contains actual copyrighted characters.
+User owns output rights, but not rights to any actual copyrighted characters or identical scenes.
 
 ---
 
-### D. Gap Analysis — Law vs Platform Policy vs Actual Enforcement
+### D. Gap Analysis — Law vs Platform vs Enforcement
 
-**1. Legal Theory**  
-- Experiment 1 is not fair use and would likely be considered infringement.  
-- Experiment 2 is a strong fair use case.  
-- AI style mimicry falls in a legal gray area (style not protected).
+**Legal Theory:**  
+- Experiment 1 = not fair use  
+- Experiment 2 = likely fair use  
+- AI mimicry is a gray zone  
 
-**2. Platform Policy**  
-TikTok claims to:  
-- Scan audio for copyrighted material  
-- Mute or remove infringing content  
-- Label AI-generated content  
-- Allow only cleared audio for certain account types
+**Platform Policy Claims:**  
+- Detect and mute copyrighted audio  
+- Block infringing content  
+- Label AI content  
+- Enforce DMCA takedowns
 
-**3. Actual Enforcement Observed**  
-Across all four experiments, TikTok did *none* of the following:  
-- Did not mute copyrighted audio  
-- Did not block or restrict any videos  
-- Did not apply copyright warnings  
-- Did not apply AI labels  
-- Did not differentiate between raw infringement and fair use  
-- Did not detect style mimicry at all
+**Actual Enforcement:**  
+TikTok did:  
+- **No copyright muting**  
+- **No blocking**  
+- **No differentiation** between fair use and infringement  
+- **Applied AI-generated labels** consistently  
+- **No detection** of style mimicry  
 
-**Conclusion of Gap Analysis:**  
-There is a **significant mismatch** between copyright law, what TikTok claims to enforce, and what actually happens in real-world uploads.  
-TikTok’s enforcement is inconsistent, heavily automated, and primarily focused on music licensing—not fair use or legal compliance.  
-This demonstrates that platform moderation systems often fail to reflect legal standards and instead rely on pragmatic or commercial priorities.
+**Conclusion:**  
+TikTok’s real enforcement is dominated by **automated audio detection** and **AI labeling**, not by copyright law.  
+There is a major gap between:
+- what copyright law requires,  
+- what the platform claims, and  
+- what actually happens.
 
-**Tiktok Uplaoded link** 
+This gap shows that platform copyright enforcement is practical, inconsistent, and often unrelated to legal standards.
+
+---
+
+**TikTok Uploaded Link:**  
 https://www.tiktok.com/@buna_3230
